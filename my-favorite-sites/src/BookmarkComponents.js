@@ -24,8 +24,8 @@ class BookmarkComponent extends Component{
     }
   }
   
-  export function getBookmark(){
-    return 5;
+  export function getBookmarkNumber(){
+    return localStorage.length;
   }
 
   export default BookmarkComponent;
